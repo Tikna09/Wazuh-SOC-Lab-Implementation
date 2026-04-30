@@ -181,5 +181,8 @@ Vulnerability Detector Enabled CVE scanning: enabled = yes → Turn CVE scanning
 interval = 5m → Check every 5 minutes
 
 run_on_start = yes → Scan immediately after restart
+
 <img width="1600" height="367" alt="WhatsApp Image 2026-04-30 at 8 41 29 AM (1)" src="https://github.com/user-attachments/assets/584eb2b3-f4e2-479b-bc40-6e407c4a08b0" />
+
+
 
