@@ -386,11 +386,56 @@ This mapping helps SOC teams quickly categorize threats and respond effectively 
 
 <img width="940" height="334" alt="image" src="https://github.com/user-attachments/assets/2efc408e-e16d-4fe4-92d5-456ddafd65bd" />
 
+## 🔗 Kill Chain Visualization
+
+The following workflow illustrates the end-to-end attack detection and analysis process within the SOC lab environment:
+
+Suspicious Command Execution
+↓
+Sysmon Logs System Activity
+↓
+Log Forwarding via Wazuh Agent
+↓
+Wazuh Detection Rules Triggered
+↓
+Alert Generation
+↓
+MITRE ATT&CK Mapping
+↓
+Visualization in Wazuh Dashboard
 
 
+This workflow demonstrates how a SOC analyst can effectively trace adversary behavior across multiple stages of the cyber kill chain, from initial activity to detection and visualization.
 
+---
 
+## ✅ Result
 
+The threat simulation successfully generated endpoint telemetry, which was captured by Sysmon and forwarded to the Wazuh SIEM for analysis.
+
+Key outcomes include:
+
+- Successful generation and collection of endpoint activity logs  
+- Accurate detection of suspicious behavior by Wazuh  
+- Alert generation based on predefined detection rules  
+- Automatic mapping of alerts to MITRE ATT&CK techniques  
+- Clear visualization of attack behavior within the SOC dashboard  
+
+This validates the effectiveness of the monitoring and detection pipeline implemented in the lab.
+
+---
+
+## 🏁 Conclusion
+
+This exercise demonstrates the practical integration of Sysmon with Wazuh SIEM to achieve enhanced endpoint visibility and advanced threat detection.
+
+By correlating system-level telemetry with detection rules and mapping events to the MITRE ATT&CK framework, SOC analysts can:
+
+- Identify and analyze malicious behavior in real time  
+- Understand attacker techniques using standardized threat models  
+- Improve incident response and threat investigation workflows  
+
+Overall, this implementation reflects real-world SOC operations and highlights the importance of combining log monitoring, detection logic, and threat intelligence frameworks to build a robust and proactive security posture.
 
 
 
