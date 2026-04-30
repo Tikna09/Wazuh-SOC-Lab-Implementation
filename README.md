@@ -118,3 +118,15 @@ sudo bash wazuh-install.sh -a
 
 <img width="959" height="548" alt="wazhu" src="https://github.com/user-attachments/assets/adfd8a52-8e38-468f-8392-8fb736120731" />
 
+---
+
+##  Agent Deployment
+
+###  Windows Agent
+
+The Wazuh agent was successfully installed and started on the Windows system.
+
+```bash
+NET START wazuhSvc
+```
+
