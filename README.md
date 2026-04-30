@@ -140,7 +140,7 @@ sudo systemctl start wazuh-agent
 
 <img width="940" height="198" alt="554069865-e2abb948-df21-4c32-9275-842c15f84164 (1)" src="https://github.com/user-attachments/assets/32e2a61b-a5b7-4700-8c79-7ceaaea45ba8" />
 
-## 🔍 Sysmon Installation (Windows)
+##  Sysmon Installation (Windows)
 
 Sysmon (System Monitor) was deployed to enhance endpoint visibility and security monitoring on the Windows system.
 
@@ -150,5 +150,6 @@ Sysmon (System Monitor) was deployed to enhance endpoint visibility and security
 - Network connection tracking  
 - Registry modification tracking  
 
-### 📸 Sysmon Setup
-![Sysmon Setup](images/sysmon-setup.png)
+###  Sysmon Setup
+<img width="533" height="205" alt="554067678-33b0fa3d-5d49-43f9-af6c-71883d4293b7" src="https://github.com/user-attachments/assets/b7025b2a-10fa-4f4e-ab20-c22a456e09d6" />
+
