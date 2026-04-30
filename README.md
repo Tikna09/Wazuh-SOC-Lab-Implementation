@@ -114,3 +114,7 @@ sudo apt update
 sudo apt install curl -y
 curl -sO https://packages.wazuh.com/4.7/wazuh-install.sh
 sudo bash wazuh-install.sh -a
+```
+
+<img width="959" height="548" alt="wazhu" src="https://github.com/user-attachments/assets/adfd8a52-8e38-468f-8392-8fb736120731" />
+
