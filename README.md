@@ -1,26 +1,26 @@
 # Wazuh SOC Lab Implementation
 
-## 📌 Project Overview
+## Project Overview
 This project demonstrates the end-to-end deployment of a Security Operations Center (SOC) using the Wazuh platform.
 
 The lab simulates a real-world enterprise security environment, including log collection, threat detection, attack simulation, and automated response.
 
 ---
 
-## 🚀 Key Capabilities
+## Key Capabilities
 
-- 🔍 Centralized Log Monitoring  
-- 🖥️ Endpoint Detection & Response (EDR)  
-- 📂 File Integrity Monitoring (FIM)  
-- ⚠️ Vulnerability Detection  
-- 🔐 Security Configuration Assessment (SCA)  
-- 🧬 Rootcheck (Malware/Rootkit Detection)  
-- 🧠 Custom Detection Rules  
-- 🚫 Intrusion Prevention (Active Response / IPS)  
+-  Centralized Log Monitoring  
+-  Endpoint Detection & Response (EDR)  
+-  File Integrity Monitoring (FIM)  
+-  Vulnerability Detection  
+-  Security Configuration Assessment (SCA)  
+-  Rootcheck (Malware/Rootkit Detection)  
+-  Custom Detection Rules  
+-  Intrusion Prevention (Active Response / IPS)  
 
 ---
 
-## 🏗️ Lab Architecture
+##  Lab Architecture
 
 ### 🔹 Virtual Environment Setup
 
