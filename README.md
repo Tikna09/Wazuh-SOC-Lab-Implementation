@@ -153,3 +153,22 @@ Sysmon (System Monitor) was deployed to enhance endpoint visibility and security
 ###  Sysmon Setup
 <img width="533" height="205" alt="554067678-33b0fa3d-5d49-43f9-af6c-71883d4293b7" src="https://github.com/user-attachments/assets/b7025b2a-10fa-4f4e-ab20-c22a456e09d6" />
 
+---
+
+# WEEK 2 – Advanced Monitoring
+
+## Monitored directory:
+```
+/var/www
+```
+
+Configuration:
+```
+<directories realtime="yes" check_all="yes">/var/www</directories>
+Tested by:
+```
+1.Creating file
+
+2.Modifying file
+
+3.Deleting file
