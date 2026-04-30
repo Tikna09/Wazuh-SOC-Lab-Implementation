@@ -186,10 +186,10 @@ run_on_start = yes → Scan immediately after restart
 
 ---
 # WEEK 3 – Intrusion Prevention System (IPS)
-## Aim:
+### Aim:
 Simulate an SSH brute force attack and automatically block attacker IP using Wazuh Active Response.
 
-#SSH Setup (Ubuntu)
+SSH Setup (Ubuntu)
 
 ```
 sudo apt install openssh-server -y
@@ -209,4 +209,5 @@ Search query used:
 rule.id:5710 OR rule.id:5712 OR rule.id:5716
 ```
 <img width="1600" height="659" alt="WhatsApp Image 2026-04-30 at 9 05 45 AM (1)" src="https://github.com/user-attachments/assets/ec3c99d8-9df4-4100-8dee-2f6d38913aa1" />
+
 
