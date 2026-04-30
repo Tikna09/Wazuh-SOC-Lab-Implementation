@@ -212,6 +212,36 @@ rule.id:5710 OR rule.id:5712 OR rule.id:5716
 ```
 <img width="1600" height="897" alt="WhatsApp Image 2026-04-30 at 9 05 44 AM" src="https://github.com/user-attachments/assets/f256ec52-5ed7-454d-ab4c-f42f15cf7d9c" />
 
+# Active Response Configuration:
+
+Added inside ossec.conf:
+```
+<active-response>
+  <command>firewall-drop</command>
+  <location>local</location>
+  <rules_id>5710,5712,5716</rules_id>
+  <timeout>600</timeout>
+</active-response>
+```
+
+# Restarted service:
+```
+sudo systemctl restart wazuh-manager
+```
+<img width="1600" height="689" alt="WhatsApp Image 2026-04-30 at 9 05 44 AM (1)" src="https://github.com/user-attachments/assets/bda44511-0a1d-4eff-956a-b7a9ad7ccad7" />
+
+## Automatic IP Blocking:
+After attack:
+
+Hydra stopped
+
+SSH connection denied
+
+### Firewall rule inserted automatically Verification:
+
+```
+ssh sakshi@192.168.56.104
+```
 
 
 
