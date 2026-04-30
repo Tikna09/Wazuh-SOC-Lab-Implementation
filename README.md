@@ -131,5 +131,9 @@ NET START wazuhSvc
 ```
 <img width="940" height="353" alt="554064423-d984f194-7621-4536-bb0d-9bf893955a43" src="https://github.com/user-attachments/assets/2eac2d0e-5358-4997-b98e-85749299054a" />
 
+```
+sudo apt install wazuh-agent -y
+sudo systemctl start wazuh-agent
+```
 <img width="940" height="482" alt="554066756-03235140-8bf5-4ebe-9141-e94bcfd7b4f4" src="https://github.com/user-attachments/assets/a3ffb622-ad6a-4902-8336-86420e0f5e1d" />
 
