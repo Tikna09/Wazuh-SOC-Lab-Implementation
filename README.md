@@ -314,10 +314,20 @@ powershell.exe -NoProfile -ExecutionPolicy Bypass -Command "Get-Process"
 <img width="940" height="471" alt="image" src="https://github.com/user-attachments/assets/41fc4ebd-d91e-47ae-8dcd-407ca683b345" />
 Purpose:
 
-Generate process creation events
-Allow Sysmon to log command execution
-Send telemetry to Wazuh SIEM
+- Generate process creation events
+- Allow Sysmon to log command execution
+- Send telemetry to Wazuh SIEM
 
+# Sysmon Log Verification
+To confirm that Sysmon was generating endpoint logs, the following command was executed:
+
+```
+Get-WinEvent -LogName "Microsoft-Windows-Sysmon/Operational" -MaxEvents 5
+Observed events included:
+```
+- Event ID 1 – Process Create
+- Event ID 11 – File Create
+These logs provide the telemetry required for threat detection in the SOC environment.
 
 
 
