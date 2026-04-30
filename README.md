@@ -272,3 +272,40 @@ ssh sakshi@192.168.56.104
 - VirtualBox  
 - Linux Firewall (iptables)  
 
+##  Skills Demonstrated
+
+This project showcases a comprehensive set of practical cybersecurity and SOC-related skills, including:
+
+- **SOC Architecture Deployment** – Designed and implemented a fully functional Security Operations Center (SOC) lab environment using Wazuh  
+- **Centralized Log Monitoring & Analysis** – Collected, correlated, and analyzed logs from multiple endpoints in real time  
+- **Attack Simulation & Adversary Emulation** – Performed controlled brute-force attacks to replicate real-world threat scenarios  
+- **Detection Rule Validation** – Utilized and verified Wazuh detection rules to accurately identify malicious activities  
+- **Intrusion Prevention Configuration (IPS)** – Implemented automated response mechanisms to block attacker activity  
+- **Firewall Automation & Response Handling** – Configured dynamic firewall rules using Active Response for immediate threat mitigation  
+- **Real-Time Incident Detection & Validation** – Monitored alerts and validated security incidents through live testing  
+- **System Troubleshooting & Debugging** – Diagnosed and resolved issues across agents, services, and configurations  
+
+---
+
+## 🏁 Final Conclusion
+
+This project successfully demonstrates the complete lifecycle of a modern Security Operations Center (SOC):
+
+The implementation replicates an **enterprise-grade security monitoring environment**, integrating multiple systems and tools to provide end-to-end visibility and protection.
+
+Through this lab, the following key outcomes were achieved:
+
+- Established a **centralized security monitoring system** using Wazuh  
+- Successfully simulated real-world cyberattacks and validated detection mechanisms  
+- Implemented **automated threat response** to actively block malicious activity  
+- Demonstrated **practical defensive security engineering** techniques  
+- Gained hands-on experience with **real-time SOC operations and incident response workflows**  
+
+This project highlights strong foundational expertise in cybersecurity operations and demonstrates readiness for roles such as:
+
+- SOC Analyst  
+- Security Engineer  
+- Threat Detection Specialist  
+- Blue Team Analyst  
+
+Overall, it reflects the ability to design, implement, and manage security systems aligned with real-world industry practices.
