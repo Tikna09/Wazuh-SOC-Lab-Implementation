@@ -92,3 +92,25 @@ The Wazuh Dashboard provides a graphical interface for monitoring and analysis.
 - Enables SOC analysts to investigate and respond to threats  
 
  Acts as the **visual monitoring and analysis interface**
+
+ # 🗓️ WEEK 1 – SOC Deployment
+
+## 🎯 Objective
+Deploy the Wazuh server infrastructure and register multiple agents for centralized monitoring.
+
+---
+
+## ⚙️ Wazuh Installation (Ubuntu)
+
+The Wazuh all-in-one installation script was used to deploy:
+- Wazuh Manager  
+- Wazuh Indexer  
+- Wazuh Dashboard  
+
+### Installation Steps
+
+```bash
+sudo apt update
+sudo apt install curl -y
+curl -sO https://packages.wazuh.com/4.7/wazuh-install.sh
+sudo bash wazuh-install.sh -a
