@@ -390,20 +390,21 @@ This mapping helps SOC teams quickly categorize threats and respond effectively 
 
 The following workflow illustrates the end-to-end attack detection and analysis process within the SOC lab environment:
 
-- Suspicious Command Execution
-- ↓
-- Sysmon Logs System Activity
-- ↓
-- Log Forwarding via Wazuh Agent
-- ↓
-- Wazuh Detection Rules Triggered
-- ↓
-- Alert Generation
-- ↓
-- MITRE ATT&CK Mapping
-- ↓
-- Visualization in Wazuh Dashboard
-
+```
+ Suspicious Command Execution
+ ↓
+ Sysmon Logs System Activity
+ ↓
+ Log Forwarding via Wazuh Agent
+ ↓
+ Wazuh Detection Rules Triggered
+ ↓
+ Alert Generation
+ ↓
+ MITRE ATT&CK Mapping
+ ↓
+ Visualization in Wazuh Dashboard
+```
 
 This workflow demonstrates how a SOC analyst can effectively trace adversary behavior across multiple stages of the cyber kill chain, from initial activity to detection and visualization.
 
