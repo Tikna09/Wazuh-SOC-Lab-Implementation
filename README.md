@@ -345,10 +345,46 @@ Configuration added:
 ```
 <img width="913" height="433" alt="image" src="https://github.com/user-attachments/assets/e91eb0ad-6e53-4096-9347-81371e107f91" />
 
+After updating the configuration, the Wazuh agent was restarted:
+```
+Restart-Service wazuh
+```
 
+## Detection in Wazuh:
 
+# Detection in Wazuh
+The suspicious activity generated alerts in the Wazuh Security Events dashboard.
 
+Example alert detected:
 
+| Field        | Value                                              |
+|-------------|----------------------------------------------------|
+| Rule ID     | 92213                                              |
+| Alert Level | 15                                                 |
+| Description | Executable file dropped in folder commonly used by malware |
+
+This alert indicates that Wazuh successfully detected suspicious activity on the monitored Windows endpoint.
+
+<img width="940" height="132" alt="image" src="https://github.com/user-attachments/assets/0d8baf97-fa2c-4bfb-b3cd-f1f7c8343139" />
+
+# MITRE ATT&CK Mapping
+The detected alert was automatically mapped to the MITRE ATT&CK framework, which helps security analysts understand attacker behavior and classify threats according to standardized adversary techniques.
+
+| MITRE Field    | Value                |
+|----------------|----------------------|
+| Technique ID   | T1105                |
+| Tactic         | Command and Control  |
+
+# Technique Explanation
+## T1105 – Ingress Tool Transfer
+
+This technique represents a stage where attackers transfer tools or malicious payloads into a compromised system. These tools may be used to establish command-and-control communication, perform lateral movement, or execute further malicious activities within the target environment.
+
+In this lab, the suspicious activity detected by Wazuh SIEM was mapped to this MITRE technique, allowing analysts to clearly understand the adversary behavior and visualize the attack stage within the cyber kill chain.
+
+This mapping helps SOC teams quickly categorize threats and respond effectively to potential security incidents.
+
+<img width="940" height="334" alt="image" src="https://github.com/user-attachments/assets/2efc408e-e16d-4fe4-92d5-456ddafd65bd" />
 
 
 
