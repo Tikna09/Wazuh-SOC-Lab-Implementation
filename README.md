@@ -195,19 +195,22 @@ SSH Setup (Ubuntu)
 sudo apt install openssh-server -y
 sudo systemctl start ssh
 ```
-<img width="1600" height="689" alt="WhatsApp Image 2026-04-30 at 9 05 44 AM (1)" src="https://github.com/user-attachments/assets/0c40f00c-6dab-4884-bb4c-d3a05301012d" />
+<img width="1599" height="902" alt="WhatsApp Image 2026-04-30 at 9 05 43 AM" src="https://github.com/user-attachments/assets/fb99228f-c324-4f3b-b3e5-5a452625d53e" />
+
 
 # Brute Force Attack (Kali)
 ```
 hydra -l sakshi -P /usr/share/wordlists/rockyou.txt -t 4 ssh://192.168.56.104
 ```
-<img width="1600" height="897" alt="WhatsApp Image 2026-04-30 at 9 05 44 AM" src="https://github.com/user-attachments/assets/c7de4d3e-90df-4838-93ff-92d74c5dab5b" />
+<img width="1600" height="433" alt="WhatsApp Image 2026-04-30 at 9 05 43 AM (1)" src="https://github.com/user-attachments/assets/a94d4dbb-4983-4ee1-a872-1d4cbeffc3cb" />
+
 
 ## Detection in Wazuh
 Search query used:
 ```
 rule.id:5710 OR rule.id:5712 OR rule.id:5716
 ```
-<img width="1600" height="659" alt="WhatsApp Image 2026-04-30 at 9 05 45 AM (1)" src="https://github.com/user-attachments/assets/ec3c99d8-9df4-4100-8dee-2f6d38913aa1" />
+<img width="1600" height="469" alt="WhatsApp Image 2026-04-30 at 9 05 45 AM" src="https://github.com/user-attachments/assets/1a51c916-4226-4c3b-8bbe-ef93f2633620" />
+
 
 
