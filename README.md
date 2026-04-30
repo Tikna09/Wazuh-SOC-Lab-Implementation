@@ -162,7 +162,7 @@ Sysmon (System Monitor) was deployed to enhance endpoint visibility and security
 /var/www
 ```
 
-Configuration:
+### Configuration:
 ```
 <directories realtime="yes" check_all="yes">/var/www</directories>
 Tested by:
