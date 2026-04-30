@@ -289,23 +289,8 @@ This project showcases a comprehensive set of practical cybersecurity and SOC-re
 
 ## 🏁 Final Conclusion
 
-This project successfully demonstrates the complete lifecycle of a modern Security Operations Center (SOC):
+This project successfully demonstrates a complete SOC lifecycle:
 
-The implementation replicates an **enterprise-grade security monitoring environment**, integrating multiple systems and tools to provide end-to-end visibility and protection.
+Monitoring → Detection → Alerting → Automated Response → Validation
 
-Through this lab, the following key outcomes were achieved:
-
-- Established a **centralized security monitoring system** using Wazuh  
-- Successfully simulated real-world cyberattacks and validated detection mechanisms  
-- Implemented **automated threat response** to actively block malicious activity  
-- Demonstrated **practical defensive security engineering** techniques  
-- Gained hands-on experience with **real-time SOC operations and incident response workflows**  
-
-This project highlights strong foundational expertise in cybersecurity operations and demonstrates readiness for roles such as:
-
-- SOC Analyst  
-- Security Engineer  
-- Threat Detection Specialist  
-- Blue Team Analyst  
-
-Overall, it reflects the ability to design, implement, and manage security systems aligned with real-world industry practices.
+The lab replicates enterprise-level security monitoring and automated threat mitigation using Wazuh. It highlights practical implementation of defensive security engineering and real-world SOC operations.
