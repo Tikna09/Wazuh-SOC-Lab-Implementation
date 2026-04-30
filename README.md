@@ -294,3 +294,26 @@ This project successfully demonstrates a complete SOC lifecycle:
 Monitoring → Detection → Alerting → Automated Response → Validation
 
 The lab replicates enterprise-level security monitoring and automated threat mitigation using Wazuh. It highlights practical implementation of defensive security engineering and real-world SOC operations.
+
+# WEEK 4 – Threat Simulation & MITRE ATT&CK Visualization
+
+## Objective
+
+Simulate adversary behavior and observe how Wazuh SIEM detects the activity and maps it to the MITRE ATT&CK framework.
+This exercise demonstrates how SOC analysts monitor suspicious activity and analyze attack stages through a kill chain visualization.
+
+## Threat Simulation
+
+A suspicious command was executed on the Windows endpoint to generate activity monitored by Sysmon and analyzed by Wazuh.
+
+Command executed on Windows PowerShell (Administrator):
+```
+powershell.exe -NoProfile -ExecutionPolicy Bypass -Command "Get-Process"
+```
+
+
+
+
+
+
+
