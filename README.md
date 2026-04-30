@@ -138,3 +138,4 @@ sudo systemctl start wazuh-agent
 ```
 <img width="940" height="482" alt="554066756-03235140-8bf5-4ebe-9141-e94bcfd7b4f4" src="https://github.com/user-attachments/assets/a3ffb622-ad6a-4902-8336-86420e0f5e1d" />
 
+<img width="940" height="198" alt="554069865-e2abb948-df21-4c32-9275-842c15f84164 (1)" src="https://github.com/user-attachments/assets/32e2a61b-a5b7-4700-8c79-7ceaaea45ba8" />
