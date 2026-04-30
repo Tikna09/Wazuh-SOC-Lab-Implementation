@@ -206,7 +206,7 @@ hydra -l sakshi -P /usr/share/wordlists/rockyou.txt -t 4 ssh://192.168.56.104
 
 
 ## Detection in Wazuh
-Search query used:
+### Search query used:
 ```
 rule.id:5710 OR rule.id:5712 OR rule.id:5716
 ```
@@ -242,6 +242,31 @@ SSH connection denied
 ```
 ssh sakshi@192.168.56.104
 ```
+<img width="1600" height="897" alt="WhatsApp Image 2026-04-30 at 9 05 44 AM" src="https://github.com/user-attachments/assets/72b5d6b0-b7f2-4bda-94ee-5e599048c2d3" />
 
+# Alerts summary
 
+<img width="1600" height="469" alt="WhatsApp Image 2026-04-30 at 9 05 45 AM" src="https://github.com/user-attachments/assets/6012ad84-77f2-46db-9773-69bf41d1203c" />
+
+## 📊 Alerts Summary
+
+| Phase      | Action Performed                          | Outcome                                      |
+|-----------|-------------------------------------------|----------------------------------------------|
+| Attack     | SSH brute force using Hydra              | Multiple failed login attempts generated     |
+| Detection  | Wazuh rules 5710 / 5712 triggered        | Security alerts created in dashboard         |
+| Response   | firewall-drop active response executed   | Attacker IP automatically blocked            |
+| Validation | SSH connection retried from Kali         | Access denied / Connection blocked           |
+
+---
+
+##  Technologies Used
+
+- Wazuh SIEM  
+- Ubuntu Linux  
+- Kali Linux  
+- Windows 10  
+- Sysmon  
+- Hydra  
+- VirtualBox  
+- Linux Firewall (iptables)  
 
