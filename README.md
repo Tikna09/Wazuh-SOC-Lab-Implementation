@@ -1,5 +1,4 @@
-# Wazuh-SOC-Lab-Implementation
-# 🛡️ Wazuh SOC Lab Implementation
+# Wazuh SOC Lab Implementation
 
 ## 📌 Project Overview
 This project demonstrates the end-to-end deployment of a Security Operations Center (SOC) using the Wazuh platform.
