@@ -386,7 +386,7 @@ This mapping helps SOC teams quickly categorize threats and respond effectively 
 
 <img width="940" height="334" alt="image" src="https://github.com/user-attachments/assets/2efc408e-e16d-4fe4-92d5-456ddafd65bd" />
 
-## 🔗 Kill Chain Visualization
+##  Kill Chain Visualization
 
 The following workflow illustrates the end-to-end attack detection and analysis process within the SOC lab environment:
 
@@ -410,7 +410,7 @@ This workflow demonstrates how a SOC analyst can effectively trace adversary beh
 
 ---
 
-## ✅ Result
+##  Result
 
 The threat simulation successfully generated endpoint telemetry, which was captured by Sysmon and forwarded to the Wazuh SIEM for analysis.
 
@@ -426,7 +426,7 @@ This validates the effectiveness of the monitoring and detection pipeline implem
 
 ---
 
-## 🏁 Conclusion
+##  Conclusion
 
 This exercise demonstrates the practical integration of Sysmon with Wazuh SIEM to achieve enhanced endpoint visibility and advanced threat detection.
 
