@@ -312,6 +312,11 @@ powershell.exe -NoProfile -ExecutionPolicy Bypass -Command "Get-Process"
 ```
 
 <img width="940" height="471" alt="image" src="https://github.com/user-attachments/assets/41fc4ebd-d91e-47ae-8dcd-407ca683b345" />
+Purpose:
+
+Generate process creation events
+Allow Sysmon to log command execution
+Send telemetry to Wazuh SIEM
 
 
 
