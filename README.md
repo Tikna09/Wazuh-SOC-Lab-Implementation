@@ -42,53 +42,53 @@ The lab simulates a real-world enterprise security environment, including log co
 
 ---
 
-## 🔄 Data Flow Architecture
+##  Data Flow Architecture
 
-### 📌 Log Processing Workflow
+###  Log Processing Workflow
 
 
 ---
 
-## 📖 Architecture Explanation
+##  Architecture Explanation
 
-### 1️⃣ Agent
+### 1️ Agent
 The Wazuh agent is installed on endpoint systems such as Windows and Kali Linux.
 
 - Collects system, security, and application logs  
 - Monitors endpoint activities in real time  
 - Forwards collected data to the Wazuh Manager  
 
-👉 Acts as a **distributed data collection sensor**
+Acts as a **distributed data collection sensor**
 
 ---
 
-### 2️⃣ Manager
+### 2️ Manager
 The Wazuh Manager serves as the core processing unit of the SOC.
 
 - Receives and analyzes logs from agents  
 - Applies predefined and custom detection rules  
-- Correlates events and generates security alerts  
-
-👉 Functions as the **central analysis engine (SOC brain)**
+- Correlates events and generates security alerts
+  
+  Functions as the **central analysis engine (SOC brain)**
 
 ---
 
-### 3️⃣ Indexer
+### 3️ Indexer
 The Wazuh Indexer is responsible for data storage and retrieval.
 
 - Stores processed logs and alerts securely  
 - Enables high-speed search and querying  
 - Supports efficient data indexing for large-scale environments  
 
-👉 Operates as a **high-performance log storage and search engine**
+Operates as a **high-performance log storage and search engine**
 
 ---
 
-### 4️⃣ Dashboard
+### 4️ Dashboard
 The Wazuh Dashboard provides a graphical interface for monitoring and analysis.
 
 - Displays alerts, logs, and security events  
 - Offers visualization through charts and dashboards  
 - Enables SOC analysts to investigate and respond to threats  
 
-👉 Acts as the **visual monitoring and analysis interface**
+ Acts as the **visual monitoring and analysis interface**
