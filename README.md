@@ -157,7 +157,7 @@ Sysmon (System Monitor) was deployed to enhance endpoint visibility and security
 
 # WEEK 2 – Advanced Monitoring
 
-## Monitored directory:
+### Monitored directory:
 ```
 /var/www
 ```
