@@ -22,7 +22,7 @@ The lab simulates a real-world enterprise security environment, including log co
 
 ##  Lab Architecture
 
-### 🔹 Virtual Environment Setup
+### Virtual Environment Setup
 
 | System       | Role                                      |
 |-------------|-------------------------------------------|
@@ -32,7 +32,7 @@ The lab simulates a real-world enterprise security environment, including log co
 
 ---
 
-### 🌐 Network Configuration
+###  Network Configuration
 
 | Machine      | IP Address        | Role                                      |
 |-------------|------------------|-------------------------------------------|
@@ -42,4 +42,4 @@ The lab simulates a real-world enterprise security environment, including log co
 
 ---
 
-## 🔄 Data Flow Architecture
+##  Data Flow Architecture
