@@ -329,6 +329,36 @@ Observed events included:
 - Event ID 11 – File Create
 These logs provide the telemetry required for threat detection in the SOC environment.
 
+<img width="940" height="298" alt="image" src="https://github.com/user-attachments/assets/df71f85d-766b-46f4-912b-9133276c72ae" />
+
+# Wazuh Agent Configuration
+To enable Sysmon log collection, the Wazuh agent configuration file was modified.
+
+## File edited:
+```
+C:\Program Files (x86)\ossec-agent\ossec.conf
+Configuration added:
+```
+## Configuration added:
+```
+<localfile> <location>Microsoft-Windows-Sysmon/Operational</location> <log_format>eventchannel</log_format> </localfile>
+```
+<img width="913" height="433" alt="image" src="https://github.com/user-attachments/assets/e91eb0ad-6e53-4096-9347-81371e107f91" />
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
