@@ -242,11 +242,13 @@ SSH connection denied
 ```
 ssh sakshi@192.168.56.104
 ```
-<img width="1600" height="897" alt="WhatsApp Image 2026-04-30 at 9 05 44 AM" src="https://github.com/user-attachments/assets/72b5d6b0-b7f2-4bda-94ee-5e599048c2d3" />
+<img width="1600" height="469" alt="WhatsApp Image 2026-04-30 at 9 05 45 AM" src="https://github.com/user-attachments/assets/a8404aa6-40ae-4c77-bbb9-a640d524d765" />
+
 
 # Alerts summary
 
-<img width="1600" height="469" alt="WhatsApp Image 2026-04-30 at 9 05 45 AM" src="https://github.com/user-attachments/assets/6012ad84-77f2-46db-9773-69bf41d1203c" />
+<img width="1600" height="659" alt="WhatsApp Image 2026-04-30 at 9 05 45 AM (1)" src="https://github.com/user-attachments/assets/e599262c-4447-45de-be4f-f68bfd06753c" />
+
 
 ## 📊 Alerts Summary
 
