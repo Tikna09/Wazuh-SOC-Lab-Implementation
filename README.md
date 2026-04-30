@@ -210,7 +210,8 @@ Search query used:
 ```
 rule.id:5710 OR rule.id:5712 OR rule.id:5716
 ```
-<img width="1600" height="469" alt="WhatsApp Image 2026-04-30 at 9 05 45 AM" src="https://github.com/user-attachments/assets/1a51c916-4226-4c3b-8bbe-ef93f2633620" />
+<img width="1600" height="897" alt="WhatsApp Image 2026-04-30 at 9 05 44 AM" src="https://github.com/user-attachments/assets/f256ec52-5ed7-454d-ab4c-f42f15cf7d9c" />
+
 
 
 
