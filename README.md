@@ -93,14 +93,14 @@ The Wazuh Dashboard provides a graphical interface for monitoring and analysis.
 
  Acts as the **visual monitoring and analysis interface**
 
- # 🗓️ WEEK 1 – SOC Deployment
+ #  WEEK 1 – SOC Deployment
 
-## 🎯 Objective
+##  Objective
 Deploy the Wazuh server infrastructure and register multiple agents for centralized monitoring.
 
 ---
 
-## ⚙️ Wazuh Installation (Ubuntu)
+##  Wazuh Installation (Ubuntu)
 
 The Wazuh all-in-one installation script was used to deploy:
 - Wazuh Manager  
