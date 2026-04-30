@@ -175,3 +175,11 @@ Tested by:
 <img width="1596" height="829" alt="WhatsApp Image 2026-04-30 at 8 41 28 AM" src="https://github.com/user-attachments/assets/eaa05911-7b6d-4571-9de8-4b082a72aa01" />
 
 <img width="1600" height="814" alt="WhatsApp Image 2026-04-30 at 8 41 29 AM" src="https://github.com/user-attachments/assets/e0e45d92-7280-4162-8c58-5afead1e9854" />
+
+Vulnerability Detector Enabled CVE scanning: enabled = yes → Turn CVE scanning ON
+
+interval = 5m → Check every 5 minutes
+
+run_on_start = yes → Scan immediately after restart
+<img width="1600" height="367" alt="WhatsApp Image 2026-04-30 at 8 41 29 AM (1)" src="https://github.com/user-attachments/assets/584eb2b3-f4e2-479b-bc40-6e407c4a08b0" />
+
